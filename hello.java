@@ -11,11 +11,11 @@ class Ideone
 	{
 	
 	Scanner s=new Scanner(System.in);
-	int N=s.nextInt();
-	String str="Hello";
-	for(int i=0;i<N;i++)
+	int n=s.nextInt();
+	
+	for(int i=0;i<n;i++)
 	{
-		System.out.println(str);
+		System.out.println(hello);
 	}// your code goes here
 	}
 }
