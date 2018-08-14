@@ -21,9 +21,10 @@ class Ideone
 		min=a[0];
 		for(i=0;i<n;i++)
 		{
+			if(a[i]<min){
 			min=a[i];
 		}
-	max=0;
+		}max=0;
 	for(i=0;i<n;i++)
 	{
 		if(a[i]>max)
